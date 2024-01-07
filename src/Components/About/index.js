@@ -33,17 +33,23 @@ const About = () => {
             />
           </h1>
           <p>
-            
-As a highly driven front-end developer, I'm actively seeking a role in an esteemed IT firm. I'm passionate about leveraging the latest technologies and thrive on tackling diverse, challenging projects.
+            An expert Frontend developer with 2+ years crafting sophisticated
+            web apps. Proficient in leveraging Generative AI for creative
+            innovation and driving revolutionary applications. Additionally,
+            proficient in deploying and managing applications on AWS EC2 cloud
+            hosting, optimizing infrastructure for scalability, reliability, and
+            performance.
           </p>
           <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            Cultivating a quiet confidence, I embrace my natural curiosity and
+            persistently enhance my skills, methodically tackling design
+            problems one step at a time.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            Driven Frontend Developer eager to join a leading IT firm,
+            passionate about harnessing cutting-edge tech and thriving amidst
+            diverse, challenging projects. Ready to contribute innovation and
+            expertise to drive impactful solutions.
           </p>
         </div>
 
