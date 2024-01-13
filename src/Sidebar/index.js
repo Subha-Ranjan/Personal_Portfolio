@@ -1,50 +1,12 @@
-// import { Link, NavLink } from 'react-router-dom'
-// import './index.scss'
-// import logoS from '../assets/images/logo-s.png'
-// import logoSubtitle from '../assets/images/logo-sub.png'
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-// import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-
-// const Sidebar = () => {
-//     return (
-//         <div className='nav-bar'>
-//             <Link to='/' className='logo'>
-//                 <img src={logoS} alt='logo' />
-//                 <img src={logoSubtitle} className='sub-logo' alt='logo_subharanjan' />
-
-//             </Link>
-//             <nav>
-//                 <NavLink exact='true' activeclassname='active' to='/' ></NavLink>
-//                 <FontAwesomeIcon icon={faHome} color='#4d4d4e' />
-//             </nav>
-//             <nav>
-//                 <NavLink exact='true' activeclassname='active' className="about-link" to='/about' ></NavLink>
-//                 <FontAwesomeIcon icon={faUser} color='#4d4d4e' />
-//             </nav>
-
-//             <nav>
-//                 <NavLink exact='true' activeclassname='active' className="contact-link" to='/contact' ></NavLink>
-//                 <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
-//             </nav>
-
-
-//         </div>
-//     )
-// }
-
-// export default Sidebar
-
-
 import './index.scss'
 import { useState } from 'react'
 import LogoS from '../assets/images/logo-s.png'
-import LogoSubtitle from '../assets/images/logo-sub.png'
+import LogoSubtitle from '../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
   faGithub,
   faYoutube,
-  faSkype,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
@@ -109,7 +71,7 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
+            href="https://www.linkedin.com/in/subha-ranjan-bhowmick-978343a9/"
             target="_blank"
             rel="noreferrer"
           >
@@ -117,12 +79,13 @@ const Sidebar = () => {
               icon={faLinkedin}
               color="#4d4d4e"
               className="anchor-icon"
+              rel="noreferrer"
             />
           </a>
         </li>
         <li>
           <a
-            href="https://github.com/bobangajicsm"
+            href="https://github.com/Subha-Ranjan"
             target="_blank"
             rel="noreferrer"
           >
@@ -130,31 +93,25 @@ const Sidebar = () => {
               icon={faGithub}
               color="#4d4d4e"
               className="anchor-icon"
+              rel="noreferrer"
             />
           </a>
         </li>
         <li>
           <a
-            href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
-            rel="noreferrer"
+            href="https://www.youtube.com/channel/UCKeAx17-o_Q23uTf-EdNAUQ"
             target="_blank"
+            rel="noreferrer"
           >
             <FontAwesomeIcon
               icon={faYoutube}
               color="#4d4d4e"
               className="anchor-icon"
+              rel="noreferrer"
             />
           </a>
         </li>
-        <li>
-          <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon
-              icon={faSkype}
-              color="#4d4d4e"
-              className="anchor-icon"
-            />
-          </a>
-        </li>
+    
       </ul>
       <FontAwesomeIcon 
           onClick={() => setShowNav(true)}
